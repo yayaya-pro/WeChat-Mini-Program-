@@ -1,0 +1,13 @@
+.item{
+    margin-top: 15rpx;
+}
+.first_tab{
+    background-color: antiquewhite;
+    margin: 15rpx;
+}
+.btn{
+    margin-top: 60rpx;
+    margin: 15rpx;
+    display: flex;
+    flex-direction: row;
+}

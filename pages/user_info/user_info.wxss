@@ -1,0 +1,34 @@
+.info{
+    margin: 10rpx;
+    
+}
+.info_font{
+    font-size: 35rpx;
+    
+}
+.data{
+    margin-left: 10rpx;
+    width: 100%;
+    height: 320rpx;
+    
+}
+.icon{
+    height:90rpx;
+    width:90rpx;
+    margin-left: 5rpx;
+    margin-top: 1rpx;
+    
+}
+.data_t{
+    padding-left: 30rpx;
+    padding-top: 25rpx;
+    color: chocolate;
+    font-weight: 700;
+    
+}
+.data_t_1{
+    padding-left: 30rpx;
+    padding-top: 10rpx;
+    color: chocolate;
+    font-weight: 700;
+}

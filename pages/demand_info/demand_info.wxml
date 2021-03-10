@@ -1,0 +1,39 @@
+<view class="top5">
+    <!--<view class="top3">
+        <view class="top3_1">
+            <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+            <view style="margin-left:10rpx">
+                <view class="top3_item1">名字:{{uname}}</view>
+                <view class="top3_item2">信用:{{credit}}</view>
+            </view>
+        </view>
+    </view>-->
+    <view class="top6">
+        <view class="top6_4">
+            <image class="img1" src="../../images/avator.jpg" mode="aspectFill" />
+        </view>
+        <view class="top6_1">
+            <view class="top6_2">名 字 : {{uname}}</view>
+            <view class="top6_3">信 用 : {{credit}}</view>
+        </view> 
+    </view>
+    <view class="top7">
+        <view class="top">
+            <view class="top_item1">{{slevel_name}}</view>
+            <view class="top_item2">时间币 ：{{utime_coin_sur}}</view>
+        </view>
+        <view class="top2">
+            <view class="top2_item">地址 ：南京市溧水区实验小学家属院</view>
+            <view class="top2_item">任务发布时间 : {{stask_retime}}</view>
+            <view class="top2_item">服务时长 : {{sduration}}</view>
+        </view>
+    </view>
+</view>
+<view class="top8">
+    <text class="top8_1">加入详细内容</text>
+    <view class="top4">
+        <view>详情</view>
+        <input placeholder="请输入任务具体内容" />
+    </view>
+    <button class="but" form-type="submit" type="warn" plain="{{true}}">承接服务</button>
+</view>

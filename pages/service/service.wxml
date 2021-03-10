@@ -1,0 +1,14 @@
+<view class="sty">
+    <view class="text">
+        <text class="text_item">开始时间</text>
+        <input class="text_content" type="datatime" placeholder="填写开始时间" />
+    </view>
+    <view class="text">
+        <text class="text_item">完成时间</text>
+        <input class="text_content" type="datatime" placeholder="填写完成时间" />
+    </view>
+</view>
+<view class="sty1">
+    <input  placeholder="聊天内容"/>
+</view>
+<button type="warn" plain="{{true}}">下单</button>

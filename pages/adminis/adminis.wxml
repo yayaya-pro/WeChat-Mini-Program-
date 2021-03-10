@@ -1,0 +1,146 @@
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+    <block wx:if="{{tabs[0].isActive}}">
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">等级1：家政服务类</view>
+                        <view class="item">时间币：700</view>
+                        <view class="item">地址：上海市闵行区</view>
+                        <view class="item">任务发布时间:2020-06-29 22:45</view>
+                        <view class="item">服务时长:2小时</view>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">等级1：家政服务类</view>
+                        <view class="item">时间币：700</view>
+                        <view class="item">地址：上海市闵行区</view>
+                        <view class="item">任务发布时间:2020-06-29 22:45</view>
+                        <view class="item">服务时长:2小时</view>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">等级1：家政服务类</view>
+                        <view class="item">时间币：700</view>
+                        <view class="item">地址：上海市闵行区</view>
+                        <view class="item">任务发布时间:2020-06-29 22:45</view>
+                        <view class="item">服务时长:2小时</view>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">等级1：家政服务类</view>
+                        <view class="item">时间币：700</view>
+                        <view class="item">地址：上海市闵行区</view>
+                        <view class="item">任务发布时间:2020-06-29 22:45</view>
+                        <view class="item">服务时长:2小时</view>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">等级1：家政服务类</view>
+                        <view class="item">时间币：700</view>
+                        <view class="item">地址：上海市闵行区</view>
+                        <view class="item">任务发布时间:2020-06-29 22:45</view>
+                        <view class="item">服务时长:2小时</view>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+    </block>
+    <block wx:elif="{{tabs[1].isActive}}">
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">等级1：家政服务类</view>
+                        <view class="item">时间币：700</view>
+                        <view class="item">地址：上海市闵行区</view>
+                        <view class="item">任务发布时间:2020-06-29 22:45</view>
+                        <view class="item">服务时长:2小时</view>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">等级1：家政服务类</view>
+                        <view class="item">时间币：700</view>
+                        <view class="item">地址：上海市闵行区</view>
+                        <view class="item">任务发布时间:2020-06-29 22:45</view>
+                        <view class="item">服务时长:2小时</view>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">等级1：家政服务类</view>
+                        <view class="item">时间币：700</view>
+                        <view class="item">地址：上海市闵行区</view>
+                        <view class="item">任务发布时间:2020-06-29 22:45</view>
+                        <view class="item">服务时长:2小时</view>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">等级1：家政服务类</view>
+                        <view class="item">时间币：700</view>
+                        <view class="item">地址：上海市闵行区</view>
+                        <view class="item">任务发布时间:2020-06-29 22:45</view>
+                        <view class="item">服务时长:2小时</view>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">等级1：家政服务类</view>
+                        <view class="item">时间币：700</view>
+                        <view class="item">地址：上海市闵行区</view>
+                        <view class="item">任务发布时间:2020-06-29 22:45</view>
+                        <view class="item">服务时长:2小时</view>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+    </block>
+</Tabs>

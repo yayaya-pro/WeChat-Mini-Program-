@@ -1,0 +1,6 @@
+/* pages/adminis/adminis.wxss */
+
+.first_tab{
+    background-color: antiquewhite;
+    margin: 15rpx;
+}

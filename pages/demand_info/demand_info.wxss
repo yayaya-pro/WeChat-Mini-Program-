@@ -1,0 +1,64 @@
+.top5{
+    
+    background-color: beige;
+
+}
+.top2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    padding-bottom: 10rpx;
+    border-bottom: 1rpx solid black;
+}
+.top4{
+    height: 530rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    margin-bottom: 10rpx;
+    border: 5rpx solid wheat;
+
+}
+
+.top3_1{
+    display: flex;
+}
+.img1{
+    height: 200rpx;
+    width: 200rpx;
+    border-radius: 100rpx;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+.top6{
+    background-color: #ff3333;
+    height: 340rpx;
+    width: 100%;
+    position: relative;
+    background-image: url('https://i.postimg.cc/fbk5tqhP/forest-trees-firs.jpg');
+    background-repeat:no-repeat; 
+    background-size:100% 100%;
+}
+.top6_1{
+    font-size: 35rpx;
+    position: relative;
+    top: 70%;
+    left: 42%;
+    color: white;
+}
+.top{
+    height: 70rpx;
+    border-bottom: 20rpx solid #BBBBBB;
+}
+.top8{
+    padding-top: 10rpx;
+    
+    height: 100%;
+}
+.top8_1{
+    position: relative;
+    left: 1.5%;
+    font-size: 40rpx;
+    color: #999999;
+}

@@ -1,0 +1,181 @@
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+    <block wx:if="{{tabs[0].isActive}}">
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">名字:赵政</view>
+                        <view class="item">特殊要求/困难</view>
+                        <view class="item">时间币：100</view>
+                    </view>
+                    <view class="btn1">
+                        <button type="warn" plain="{{true}}" size="mini" style="height:50%">
+                            关注
+                        </button>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">名字:赵政1</view>
+                        <view class="item">特殊要求/困难</view>
+                        <view class="item">时间币：101</view>
+                    </view>
+                    <view class="btn1">
+                        <button type="warn" plain="{{true}}" size="mini" style="height:50%">
+                            关注
+                        </button>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">名字:赵政2</view>
+                        <view class="item">特殊要求/困难</view>
+                        <view class="item">时间币：102</view>
+                    </view>
+                    <view class="btn1">
+                        <button type="warn" plain="{{true}}" size="mini" style="height:50%">
+                            关注
+                        </button>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">名字:赵政3</view>
+                        <view class="item">特殊要求/困难</view>
+                        <view class="item">时间币：103</view>
+                    </view>
+                    <view class="btn1">
+                        <button type="warn" plain="{{true}}" size="mini" style="height:50%">
+                            关注
+                        </button>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">名字:赵政4</view>
+                        <view class="item">特殊要求/困难</view>
+                        <view class="item">时间币：104</view>
+                    </view>
+                    <view class="btn1">
+                        <button type="warn" plain="{{true}}" size="mini" style="height:50%">
+                            关注
+                        </button>
+                    </view>
+                </view>
+            </navigator>
+        </view>  
+    </block>
+    <block wx:elif="{{tabs[1].isActive}}">
+                <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">名字:赵政5</view>
+                        <view class="item">特殊要求/困难</view>
+                        <view class="item">时间币：105</view>
+                    </view>
+                    <view class="btn1">
+                        <button type="warn" plain="{{true}}" size="mini" style="height:50%">
+                            关注
+                        </button>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">名字:赵政6</view>
+                        <view class="item">特殊要求/困难</view>
+                        <view class="item">时间币：106</view>
+                    </view>
+                    <view class="btn1">
+                        <button type="warn" plain="{{true}}" size="mini" style="height:50%">
+                            关注
+                        </button>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">名字:赵政7</view>
+                        <view class="item">特殊要求/困难</view>
+                        <view class="item">时间币：107</view>
+                    </view>
+                    <view class="btn1">
+                        <button type="warn" plain="{{true}}" size="mini" style="height:50%">
+                            关注
+                        </button>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">名字:赵政8</view>
+                        <view class="item">特殊要求/困难</view>
+                        <view class="item">时间币：108</view>
+                    </view>
+                    <view class="btn1">
+                        <button type="warn" plain="{{true}}" size="mini" style="height:50%">
+                            关注
+                        </button>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="first_tab">
+            <navigator class="donation_item">
+                <view class="top3">
+                    <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+                    <view style="margin-left:10rpx">
+                        <view class="item">名字:赵政9</view>
+                        <view class="item">特殊要求/困难</view>
+                        <view class="item">时间币：109</view>
+                    </view>
+                    <view class="btn1">
+                        <button type="warn" plain="{{true}}" size="mini" style="height:50%">
+                            关注
+                        </button>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+    </block>
+</Tabs>
+<view class="btn">
+    <button size="mini" type="warn" plain="{{true}}">首页</button>
+    <button size="mini" type="warn" plain="{{true}}">发布捐赠</button>
+    <button size="mini" type="warn" plain="{{true}}">用户信息</button>
+</view>

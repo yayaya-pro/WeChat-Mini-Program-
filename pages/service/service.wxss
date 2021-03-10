@@ -1,0 +1,18 @@
+/* pages/service/service.wxss */
+.text{
+    margin: 20rpx;
+    font-size: 35rpx;
+}
+.text_content{
+    border: 1rpx solid black;
+}
+.sty{
+    display: flex;
+    flex-direction: column;
+    margin: 5rpx;
+}
+.sty1{
+    margin: 20rpx;
+    height: 600rpx;
+    border: 1rpx solid black;
+}

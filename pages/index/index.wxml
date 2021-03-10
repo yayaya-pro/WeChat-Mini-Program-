@@ -1,0 +1,15 @@
+<view class="container">
+<view ><navigator url="../demand_info/demand_info">需求信息</navigator></view>
+<view>
+    <navigator url="../donation/donation">捐赠</navigator>
+</view>
+<view>
+    <navigator url="../user_info/user_info">个人信息</navigator>
+</view>
+<view>
+    <navigator url="../adminis/adminis">管理员版</navigator>
+</view>
+<view>
+    <navigator url="../service/service">服务进度</navigator>
+</view>
+</view>

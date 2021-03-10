@@ -1,0 +1,160 @@
+<view style="background-image: url('https://i.postimg.cc/HLf9T9n5/mountains-silhouette.jpg');background-repeat:no-repeat;background-size:100% 100%">
+    <view class="top">
+        <view class="top_item1">注销</view>
+        <view class="top_item2">编辑资料</view>
+    </view>
+    <view class="top3">
+        <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+        <view style="margin-left:10rpx">
+            <view class="top3_item1">名字:{{uname}}</view>
+            <view class="top3_item2">信用:{{credit}}</view>
+        </view>
+    </view>
+    <view style="margin-left:16rpx;font-weight: 700;font-size: 33rpx">地址：{{uarea}}</view>
+</view>
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+    <block wx:if="{{tabs[0].isActive}}">
+        <view class="data">
+            <view style="display:flex;flex-diretion:row">
+                <view style="height:90rpx;width:48%;display:flex;border:4rpx solid #E0AE64;border-radius: 20rpx;background-color: antiquewhite;margin-top:5rpx">
+                    <image class="icon" src="../../icon/心跳.png" />
+                    <view class="data_t">
+                        <text>心跳：75次/min</text>
+                    </view>
+                </view>
+                <view style="height:90rpx;width:48%;display:flex;border:4rpx solid #E0AE64;border-radius: 20rpx;background-color: antiquewhite;margin-top:5rpx;margin-left:10rpx">
+                    <image class="icon" src="../../icon/体温.png" />
+                    <view class="data_t">
+                        <text>体温：36.5℃</text>
+                    </view>
+                </view>
+            </view>
+            <view  style="display:flex;flex-diretion:row">
+                <view style="height:90rpx;width:48%;display:flex;border:4rpx solid #E0AE64;border-radius: 20rpx;background-color: antiquewhite;margin-top:15rpx">
+                    <image class="icon" src="../../icon/血压.png" />
+                    <view class="data_t_1">
+                        <text>血压：120/70 mmHg</text>
+                    </view>
+                </view>
+                <view style="height:90rpx;width:48%;display:flex;border:4rpx solid #E0AE64;border-radius: 20rpx;background-color: antiquewhite;margin-top:15rpx;margin-left:10rpx">
+                    <image class="icon" src="../../icon/血糖.png" />
+                    <view class="data_t_1">
+                        <text>血糖：8.6mmol/L</text>
+                    </view>
+                </view>
+            </view>
+            <view style="height:90rpx;width:48%;display:flex;border:4rpx solid #E0AE64;border-radius: 20rpx;background-color: antiquewhite;margin-top:15rpx">
+                <image class="icon" src="../../icon/血氧.png" />
+                <view class="data_t">
+                    <text>血氧：95%</text>
+                </view>
+            </view>
+            
+        </view>
+        <view class="info">
+            <view class="info_font">用户编号：1801020501</view>
+            <view class="info_font">账户：4962187326471847</view>
+            <view class="info_font">密码：123456</view>
+            <view class="info_font">姓名：赵政</view>
+            <view class="info_font">性别：女</view>
+            <view class="info_font">电话：13368751963</view>
+            <view class="info_font">电子邮箱：zhaozheng@gmail.com</view>
+            <view class="info_font">时间币余额：100</view>
+            <view class="info_font">工作单位：南京市溧水区实验小学</view>
+            <view class="info_font">身份证号：123456194902015483</view>
+        </view>
+        <button type="warn" style="background-color: antiquewhite">一键呼叫</button>
+    </block>
+    <block wx:elif="{{tabs[1].isActive}}">
+        <view class="top3" style="background-color: antiquewhite;margin: 10rpx;border-radius: 2rpx">
+            <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+            <view style="margin-left:10rpx">
+                <view class="top3_item1">名字:{{uname}}</view>
+                <view class="top3_item2">信用:{{credit}}</view>
+            </view>
+        </view>
+        <view class="top3" style="background-color: antiquewhite;margin: 10rpx;border-radius: 2rpx">
+            <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+            <view style="margin-left:10rpx">
+                <view class="top3_item1">名字:{{uname}}2</view>
+                <view class="top3_item2">信用:{{credit}}</view>
+            </view>
+        </view>
+        <view class="top3" style="background-color: antiquewhite;margin: 10rpx;border-radius: 2rpx">
+            <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+            <view style="margin-left:10rpx">
+                <view class="top3_item1">名字:{{uname}}33</view>
+                <view class="top3_item2">信用:{{credit}}</view>
+            </view>
+        </view>
+    </block>
+    <block wx:elif="{{tabs[2].isActive}}">
+        <view  style="background-color: antiquewhite;margin: 10rpx;border-radius: 2rpx">
+            <view class="top">
+                <view class="top_item1">{{slevel_name}}</view>
+                <view class="top_item2">时间币：{{utime_coin_sur}}</view>
+            </view>
+            <view class="top2">
+                <view class="top2_item">地址：{{saddress}}</view>
+                <view class="top2_item">服务任务发布时间:{{stask_retime}}</view>
+                <view class="top2_item">服务时长:{{sduration}}</view>
+            </view>
+        </view>
+        <view style="background-color: antiquewhite;margin: 10rpx;border-radius: 2rpx">
+            <view class="top">
+                <view class="top_item1">{{slevel_name}}</view>
+                <view class="top_item2">时间币：{{utime_coin_sur}}</view>
+            </view>
+            <view class="top2">
+                <view class="top2_item">地址：{{saddress}}</view>
+                <view class="top2_item">服务任务发布时间:{{stask_retime}}</view>
+                <view class="top2_item">服务时长:{{sduration}}</view>
+            </view>
+        </view>
+        <view style="background-color: antiquewhite;margin: 10rpx;border-radius: 2rpx">
+            <view class="top">
+                <view class="top_item1">{{slevel_name}}</view>
+                <view class="top_item2">时间币：{{utime_coin_sur}}</view>
+            </view>
+            <view class="top2">
+                <view class="top2_item">地址：{{saddress}}</view>
+                <view class="top2_item">服务任务发布时间:{{stask_retime}}</view>
+                <view class="top2_item">服务时长:{{sduration}}</view>
+            </view>
+        </view>
+    </block>
+    <block wx:elif="{{tabs[3].isActive}}">
+        <view class="top3"  style="background-color: antiquewhite;margin: 10rpx;border-radius: 2rpx">
+            <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+            <view style="margin-left:10rpx">
+                <view class="item">名字:赵政</view>
+                <view class="item">特殊要求/困难</view>
+                <view class="item">时间币：100</view>
+            </view>
+        </view>
+        <view class="top3" style="background-color: antiquewhite;margin: 10rpx;border-radius: 2rpx">
+            <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+            <view style="margin-left:10rpx">
+                <view class="item">名字:赵政</view>
+                <view class="item">特殊要求/困难</view>
+                <view class="item">时间币：100</view>
+            </view>
+        </view>
+        <view class="top3" style="background-color: antiquewhite;margin: 10rpx;border-radius: 2rpx">
+            <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+            <view style="margin-left:10rpx">
+                <view class="item">名字:赵政</view>
+                <view class="item">特殊要求/困难</view>
+                <view class="item">时间币：100</view>
+            </view>
+        </view>
+        <view class="top3" style="background-color: antiquewhite;margin: 10rpx;border-radius: 2rpx">
+            <image class="imag" src="../../images/avator.jpg" mode="aspectFill" />
+            <view style="margin-left:10rpx">
+                <view class="item">名字:赵政</view>
+                <view class="item">特殊要求/困难</view>
+                <view class="item">时间币：100</view>
+            </view>
+        </view>
+    </block>
+</Tabs>

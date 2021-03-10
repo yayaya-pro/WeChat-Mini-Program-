@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/demand_info/demand_info",
+    "pages/user_info/user_info",
+    "pages/service/service",
+    "pages/adminis/adminis",
+    "pages/donation/donation",
+    
+    "pages/po_donation/po_donation",
+    
+    "pages/families/families"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "云晖",
+    "navigationBarTextStyle":"white"
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

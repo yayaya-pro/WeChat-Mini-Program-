@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.container view{
+    /*使用主题颜色*/
+    margin: 30rpx;
+    height: 100rpx;
+    width: 200rpx;
+    flex: 1;
+    color:var(--themeColor);
+    border: 2rpx solid var(--themeColor);
+    border-radius: 5%;
+}

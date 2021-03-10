@@ -1,0 +1,66 @@
+page,view,text,swiper,swiper-item,image,navigator{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+page{
+    /*定义主题颜色*/
+    --themeColor:#eb4450;
+    /*统一字体大小*/
+    font-size: 30rpx;
+}
+.top{
+    /*border: 1rpx solid black;
+    background-color: antiquewhite;*/
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    padding-top: 10rpx;
+}
+.top_item1{
+    width: 80%;
+    /*background-color: rgb(255, 127, 191);*/
+}
+.top_item2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    /*background-color: aqua;*/
+}
+.top3{
+    
+    display: flex;
+    padding-bottom: 10rpx;
+    
+}
+.imag{
+    
+    width: 150rpx;
+    height: 150rpx;
+    margin: 10rpx;
+    margin-left: 20rpx;
+}
+.top3_item1{
+    
+    
+    height: 50%;
+    margin-top: 20rpx;
+
+}
+.top3_item2{
+    
+    
+    height: 40%;
+    
+}
+.btn1{
+    
+    width: 40%;
+    display: flex;
+    height: 130rpx;
+    position: relative;
+    top: 50rpx;
+    bottom: 50rpx;
+    right: 5rpx;
+}
